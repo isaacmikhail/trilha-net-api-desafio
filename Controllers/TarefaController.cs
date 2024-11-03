@@ -8,7 +8,7 @@ namespace TrilhaApiDesafio.Controllers
     [ApiController]
     [Route("[controller]")]
     public class TarefaController : ControllerBase
-    {
+    { 
         private readonly OrganizadorContext _context;
 
         public TarefaController(OrganizadorContext context)
